@@ -65,7 +65,7 @@ function About() {
               I am a Front-End Developer (Design Focused) with 1 year of experience in creating clean, modern, and responsive web designs. I specialize in building user-friendly interfaces using HTML and Tailwind CSS, with a strong focus on layout, design consistency, and responsive UI across all devices.
             </div>
             <div className="text-gray-200 text-base sm:text-lg leading-relaxed">
-              I have basic knowledge of JavaScript, which I use to add simple interactivity to web pages. I am passionate about front-end design, improving user experience, and continuously learning new design trends and tools.
+              I have knowledge of JavaScript, which I use to add simple interactivity to web pages. I am passionate about front-end design, improving user experience, and continuously learning new design trends and tools.
             </div>
 
             {/* Download CV Button */}
