@@ -31,7 +31,7 @@ function Services() {
           {/* Skill Card */}
           <div className="group bg-[#1a1a1a] rounded-2xl p-8 md:p-10 border border-zinc-800 hover:border-[#E96600]/60 hover:shadow-[0_0_25px_rgba(233,102,0,0.4)] transition-all duration-500 transform hover:-translate-y-2 hover:bg-[#1e1e1e]">
 
-            <div className="text-orange-500 text-5xl md:text-6xl mb-6 group-hover:text-[#ff8533] transition-colors duration-300">
+            <div className="text-orange-500 text-5xl md:text-6xl mb-6 transition-colors duration-300">
               <TiHtml5 />
             </div>
 
@@ -48,7 +48,7 @@ function Services() {
 
           <div className="group bg-[#1a1a1a] rounded-2xl p-8 md:p-10 border border-zinc-800 hover:border-[#E96600]/60 hover:shadow-[0_0_25px_rgba(233,102,0,0.4)] transition-all duration-500 transform hover:-translate-y-2 hover:bg-[#1e1e1e]">
 
-            <div className="text-cyan-400 text-5xl md:text-6xl mb-6 group-hover:text-[#ff8533] transition-colors duration-300">
+            <div className="text-cyan-400 text-5xl md:text-6xl mb-6 transition-colors duration-300">
               <RiTailwindCssFill />
             </div>
 
@@ -65,7 +65,7 @@ function Services() {
 
           <div className="group bg-[#1a1a1a] rounded-2xl p-8 md:p-10 border border-zinc-800 hover:border-[#E96600]/60 hover:shadow-[0_0_25px_rgba(233,102,0,0.4)] transition-all duration-500 transform hover:-translate-y-2 hover:bg-[#1e1e1e]">
 
-            <div className="text-yellow-400 text-5xl md:text-6xl mb-6 group-hover:text-[#ff8533] transition-colors duration-300">
+            <div className="text-yellow-400 text-5xl md:text-6xl mb-6 transition-colors duration-300">
               <DiJavascript />
             </div>
 
@@ -82,7 +82,7 @@ function Services() {
 
           <div className="group bg-[#1a1a1a] rounded-2xl p-8 md:p-10 border border-zinc-800 hover:border-[#E96600]/60 hover:shadow-[0_0_25px_rgba(233,102,0,0.4)] transition-all duration-500 transform hover:-translate-y-2 hover:bg-[#1e1e1e]">
 
-            <div className="text-cyan-500 text-5xl md:text-6xl mb-6 group-hover:text-[#ff8533] transition-colors duration-300">
+            <div className="text-cyan-500 text-5xl md:text-6xl mb-6 transition-colors duration-300">
               <FaReact />
             </div>
 
@@ -99,7 +99,7 @@ function Services() {
 
           <div className="group bg-[#1a1a1a] rounded-2xl p-8 md:p-10 border border-zinc-800 hover:border-[#E96600]/60 hover:shadow-[0_0_25px_rgba(233,102,0,0.4)] transition-all duration-500 transform hover:-translate-y-2 hover:bg-[#1e1e1e]">
 
-            <div className="text-green-500 text-5xl md:text-6xl mb-6 group-hover:text-[#ff8533] transition-colors duration-300">
+            <div className="text-green-500 text-5xl md:text-6xl mb-6 transition-colors duration-300">
               <RiVuejsFill />
             </div>
 
@@ -116,7 +116,7 @@ function Services() {
 
           <div className="group bg-[#1a1a1a] rounded-2xl p-8 md:p-10 border border-zinc-800 hover:border-[#E96600]/60 hover:shadow-[0_0_25px_rgba(233,102,0,0.4)] transition-all duration-500 transform hover:-translate-y-2 hover:bg-[#1e1e1e]">
 
-            <div className="text-orange-400 text-5xl md:text-6xl mb-6 group-hover:text-[#ff8533] transition-colors duration-300">
+            <div className="text-orange-400 text-5xl md:text-6xl mb-6 transition-colors duration-300">
               <FaAws />
             </div>
 
