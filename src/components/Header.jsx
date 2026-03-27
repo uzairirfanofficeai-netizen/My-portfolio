@@ -1,6 +1,5 @@
 // src/components/Header.js
 import React, { useState } from 'react';
-import logoImage from '../assets/XY TECH.png'; // Yeh path bilkul sahi hai jo tumne diya tha
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,16 +9,18 @@ function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-gray-800/50">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
           <div className="flex items-center justify-between h-20 md:h-24">
-            {/* Logo Image - Animated */}
-            <button className="flex items-center group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-              <img
-                src={logoImage}
-                alt="Muhammad Uzair Logo"
-                className="h-14 sm:h-16 md:h-20 lg:h-24 w-auto object-contain 
-                       transform transition-all duration-500 ease-out
-                       hover:scale-110 hover:rotate-3 hover:brightness-125
-                       animate-float"
-              />
+            {/* Current Company Badge - No Logo */}
+            <button 
+              className="flex items-center gap-2 group" 
+              onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+            >
+              <div className="relative">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                <div className="absolute inset-0 w-2 h-2 bg-green-500 rounded-full animate-ping opacity-75"></div>
+              </div>
+              <span className="text-sm sm:text-base text-gray-300 font-medium tracking-wide group-hover:text-[#E96600] transition-colors duration-300">
+                Currently at <span className="text-[#E96600] font-semibold">XY Tech</span>
+              </span>
             </button>
 
             {/* Desktop Navigation */}
@@ -123,7 +124,7 @@ function Header() {
         </div>
       )}
 
-      {/* Spacer for fixed header - thoda bara kiya taake bade logo ke saath fit ho */}
+      {/* Spacer for fixed header */}
       <div className="h-20 md:h-24"></div>
     </>
   );
