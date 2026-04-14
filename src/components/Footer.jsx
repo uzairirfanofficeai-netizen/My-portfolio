@@ -3,6 +3,8 @@ import React from 'react';
 import logoImage from '../assets/XY TECH.png';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-[#121212] border-t border-gray-800/50">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-16">
@@ -86,7 +88,7 @@ function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800/50 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
-            <p>&copy; 2024 Muhammad Uzair. All rights reserved.</p>
+            <p>&copy; {currentYear} Muhammad Uzair. All rights reserved.</p>
             <p className="mt-2 md:mt-0">Built with ❤️ using React & Tailwind CSS</p>
           </div>
         </div>
